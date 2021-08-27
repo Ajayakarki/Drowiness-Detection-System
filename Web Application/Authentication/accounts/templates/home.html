@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<style>
+	link{
+		padding-right: -500px
+	}
+
+</style>
+
+<div class="global-container">
+	<div class="card login-form">
+	<div class="card-body">
+
+		<form method="POST", action="predict">
+			<h3 class="card-title text-center">Welcome, {{request.user.username}}</h3>
+
+			{% csrf_token %}
+		<div class="card-title text-center">
+			<button type="submit" class="btn btn-primary btn-block" >Open Camera</button>
+			
+
+
+
+		</div>
+		<div class="card-title text-center">
+			<a href="{% url 'logout' %}">Go to login page</a> 
+
+
+		</div>
+		
+
+
+		</form>
+		
+
+
+			<!--
+			<div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
+
+		
+	</div>
+</div>
+</div>
+
+
+{% endblock %}
