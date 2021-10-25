@@ -1,7 +1,7 @@
 <h3>Driver Drowsiness Detection System</h3>
 
 <h2>Introduction</h2>
-<br>The project is fully based on AI and lies in the field of computer vision and Machine learning. The project focuses to capture the real-time drowsy state of driver through the eyes state the dataset for building the model will be the images of eyes which is categorized into open eyes dataset and close eyes dataset. The model is built by training the open/close eyes images so the project is based on supervised learning and to build the model CNN (Convolution Neural Network) algorithm is used as it works better than other algorithm as the dataset are the set of images.</br>
+<br>The project is fully based on AI and lies in the field of computer vision and Machine learning. The project focuses to capture the real-time drowsy state of driver through the eyes state(wether open or close), the dataset for building the model is the images of eyes which is categorized into open eyes dataset and close eyes dataset. The model is built by training the open/close eyes images so the project is based on supervised learning and to build the model CNN (Convolution Neural Network) algorithm is used as it works better than other algorithm as the dataset are the set of images.</br>
 <br>A camera is placed in front of the driver that processes the images frames from the video and with the Voila Jones algorithm it detects the face structure and with the haar cascade eye classifier we can able to detect the ROI i.e. eyes After extracting the eyes from the video the image is feed to the CNN model and the model identify whether the eyes are open or closed. And if the eyes are closed for a certain frames the alarm is buzzed. If the user close the eyes the counter value appears in the frame starting from 10 and if the user continuously close the eyes the counter value decrease and reaches to 0 and the alarm buzzed to alert the driver showing alert message on the screen.</br>
 
 <h2>Aims of the project</h2>
@@ -31,6 +31,7 @@
 <h1>MobileNet Architecture</h1>
 <br>While using the concept of transfer learning MobileNet architecture is used
 MobileNets models is the efficient models used for embedded vision applications. It is the streamlined architecture which uses depth wise separable convolutions in the network to build the light weight deep neural networks. The main objective of the mobilenet architecture is to make the model lighter using less parameters and not decreasing the accuracy significantly.</br>
+<img src="images/13.JPG">
 
 <h1>Metrices</h1>
 <br> <b>Confusion Matrix </b> </br>
