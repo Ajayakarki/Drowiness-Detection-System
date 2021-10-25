@@ -14,7 +14,7 @@ A camera is placed in front of the driver that processes the images frames from 
 I have taken the dataset from “MRL Eye Dataset”. The dataset consists the total images of 84,898 with the data of total 37 different persons 4 women and 33 men. The dataset images are low and high resolution and all are captured in different lighting conditions. This dataset was really developed to detect the pupil of the eyes but for the project the dataset is used for training the CNN model to differentiate between open and close eyes.\
 
 <h2>Building a Model</h2>
-For this project to build the model 2 different approaches and technique are considered and among them best technique is finalized and consider as a real model. The two approaches are:\
+<br>For this project to build the model 2 different approaches and technique are considered and among them best technique is finalized and consider as a real model. The two approaches are:</br>
 * Building the model by own\
 * Using the concept of transfer learning \
 
