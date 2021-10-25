@@ -1,7 +1,4 @@
-<h3>Driver Drowsiness Detection System</h3>
+ Driver Drowsiness Detection System
 
-<h2>Introduction</h2>
-The project is fully based on AI and lies in the field of computer vision and Machine learning. As the project focuses to capture the real-time drowsy state of driver through the eye state the dataset for building the model will be the images of eyes which is categorized into open eyes dataset and close eyes dataset. The model is built by training the open/close eyes images so the project is based on supervised learning and to build the model CNN (Convolution Neural Network) algorithm is used as it works better than other algorithm as the dataset are the set of images. 
-<br>
-
-The main focus of this project is designing a system that accurately and continuously monitor the driver's eye. A camera is placed in front of the driver that processes the images frames from the video and with the Voila Jones algorithm it detects the face structure and with the haar cascade eye classifier we can able to detect the ROI i.e. eye. After extracting the eyes from the video the image is feed to the CNN model and the model identify whether the eyes are open or closed. And if the eyes are closed for a certain frames the alarm is buzzed. If the user close the eyes the counter value appears in the frame starting from 10 and if the user continuously close the eyes the counter value decrease and reaches to 0 and the alarm buzzed to alert the driver showing alert message on the screen.  
+Introduction
+The project is fully based on AI and lies in the field of computer vision and Machine learning. As the project focuses to capture the real-time drowsy state of driver through the eye state the dataset for building the model will be the images of eyes which is categorized into open eyes dataset and close eyes dataset. The model is built by training the open/close eyes images so the project is based on supervised learning and to build the model CNN (Convolution Neural Network) algorithm is used as it works better than other algorithm as the dataset are the set of images.
